@@ -102,6 +102,16 @@ st.markdown(
     [data-testid="stSidebarNavItems"] > li:first-child {
         display: none !important;
     }
+
+    /* 隱藏右上角 Fork / GitHub 按鈕 */
+    [data-testid="stToolbarActionButton"] {
+        display: none !important;
+    }
+
+    /* 隱藏右下角 Streamlit 部署按鈕 */
+    [data-testid="stAppDeployButton"] {
+        display: none !important;
+    }
     </style>
     """,
     unsafe_allow_html=True,
