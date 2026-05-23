@@ -1,0 +1,59 @@
+{
+  "week": 13,
+  "questions": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4",
+    "Q5",
+    "Q6",
+    "Q7",
+    "Q8"
+  ],
+  "question_types": {
+    "Q1": "mc",
+    "Q2": "scored",
+    "Q3": "scored",
+    "Q4": "consistency",
+    "Q5": "scored",
+    "Q6": "scored",
+    "Q7": "scored",
+    "Q8": "collect"
+  },
+  "mc_question": "Q1",
+  "consistency_question": "Q4",
+  "csv_column_mapping": {
+    "Q1": {
+      "index": 1,
+      "description": "分析位置選擇"
+    },
+    "Q2": {
+      "index": 2,
+      "description": "論證建構（P1/P2/C）"
+    },
+    "Q3": {
+      "index": 3,
+      "description": "最強反對理由"
+    },
+    "Q4": {
+      "index": 4,
+      "description": "立場改變回應"
+    },
+    "Q5": {
+      "index": 5,
+      "description": "堅持／限定／修正／放棄理由"
+    },
+    "Q6": {
+      "index": 6,
+      "description": "倫理價值的代價"
+    },
+    "Q7": {
+      "index": 7,
+      "description": "立場與處境影響"
+    },
+    "Q8": {
+      "index": 8,
+      "description": "困惑與不確定"
+    }
+  }
+}

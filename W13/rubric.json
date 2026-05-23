@@ -1,0 +1,262 @@
+{
+  "topic_summary": "本週探討AI如何透過大規模假帳號與深度偽造內容操縱資訊環境，進而威脅民主的共同事實基礎與制度信任；學生需從特定分析切入點構建可由公共理由支持的倫理論證，並檢視其最強反論、回應方式以及倫理價值的代價與個人立場的影響。",
+  "rubrics": {
+    "Q2": {
+      "scoring_criteria": {
+        "9-10": "P1、P2、C 三部分皆明確標示，事實前提具體且有可靠來源，規範前提闡明倫理原則，結論自然從兩前提推導，無顯著錯誤或跳躍。",
+        "7-8": "三部分皆 present，但其中一部分稍嫌不夠具體或標示略有模糊，推導基本合理，偶有小疏漏。",
+        "5-6": "基本包含 P1、P2、C，但其中一部分缺失或過於籠統，推導有跳躍或需加強說明。",
+        "3-4": "缺少一個或多個部分，或標示混亂，事實前提缺乏具體依據，結論與前提關聯不明。",
+        "0-2": "未能區分 P1/P2/C，或僅零散陳述，缺乏論證結構。"
+      },
+      "format_checklist": [
+        "Contains P1 premise",
+        "Contains P2 premise",
+        "Contains C conclusion",
+        "Each part clearly labeled (P1/P2/C)",
+        "Logical flow from P1+P2 to C"
+      ]
+    },
+    "Q3": {
+      "scoring_criteria": {
+        "9-10": "清楚指出具體反對點，直接針對P2或整體論證的薄弱環節，提供充分證據或例證，理由邏輯嚴謹且具建設性。",
+        "7-8": "反對點明確，但證據或說明稍嫌不足，理由基本合理，偶有小幅偏離。",
+        "5-6": "提出反對，但過於籠統或未緊扣論證，證據有限，推導略顯草率。",
+        "3-4": "反對模糊、與論點無關或僅重複既有論點，缺乏實質理由。",
+        "0-2": "未提出可辨識的反對，或僅發表無關感想。"
+      },
+      "format_checklist": [
+        "States a clear objection",
+        "References P2 or overall argument",
+        "Provides reasoning or evidence"
+      ]
+    },
+    "Q5": {
+      "scoring_criteria": {
+        "9-10": "明確選擇限定/堅持/修正/放棄其中一種，直接回應Q3反對，提供充分且合理的理由說明，顯示與原P2的一致性或必要調整。",
+        "7-8": "選擇明確且回應反對，理由較為充分，但說明略欠深度或有小幅不一致。",
+        "5-6": "給出回應類型，但對Q3的回應泛泛或理由不足，可能忽略部分關鍵點。",
+        "3-4": "回應類型不明確或與Q3無關，理由極為簡略或矛盾。",
+        "0-2": "未說明所選回應類型，或僅重複原論點而未回應反對。"
+      },
+      "format_checklist": [
+        "States chosen response type (qualify/defend/revise/concede)",
+        "Explains why that response is chosen",
+        "Addresses the objection raised in Q3",
+        "Shows consistency with or adjustment to P2"
+      ]
+    },
+    "Q6": {
+      "scoring_criteria": {
+        "9-10": "清楚指出一項或多項倫理價值，具體描述其維護或實現所需的成本/犧牲，闡述得失權衡，並有理據或例證支持。",
+        "7-8": "指出倫理價值與成本，說明具體但深度或證據略嫌不足，權衡討論基本完整。",
+        "5-6": "提及倫理價值與成本，但描述過於籠統或僅單方面，缺少完整權衡分析。",
+        "3-4": "僅提及價值或成本其中一方，或說明模糊缺乏具體內容。",
+        "0-2": "未能辨識倫理價值與其成本，或內容與題目無關。"
+      },
+      "format_checklist": [
+        "Identifies at least one ethical value",
+        "Describes concrete cost or trade‑off",
+        "Connects cost to the argument or value",
+        "Provides evidence or rationale for the cost"
+      ]
+    },
+    "Q7": {
+      "scoring_criteria": {
+        "9-10": "清楚闡述個人立場，詳細考慮具體情境因素（如文化、制度、資訊來源），展現深刻自我反思，並解釋這些因素如何共同塑造對議題的判斷。",
+        "7-8": "說明立場與情境，反思深度適度，關聯性清晰但可能略欠具體例證。",
+        "5-6": "提及立場與情境，但描述過於概括，反思有限，關聯性說明不足。",
+        "3-4": "僅陳述立場或情境其中一方，缺乏對另一方的考量或反思。",
+        "0-2": "未能區分立場與情境，或僅發表無關個人感想。"
+      },
+      "format_checklist": [
+        "Reflects on personal stance",
+        "Considers situational factors",
+        "Explains impact on judgment",
+        "Shows reflective depth"
+      ]
+    }
+  },
+  "tag_taxonomy": {
+    "Q2": {
+      "error_tags": {
+        "missing_premise": "Missing factual or normative premise",
+        "unclear_labeling": "Unclear or missing P1/P2/C labels",
+        "non_sequitur": "Conclusion does not follow from premises",
+        "vague_statement": "Overly vague statements",
+        "overgeneralization": "Over‑generalized claims"
+      },
+      "quality_tags": {
+        "clear_premises": "Clear and specific premises",
+        "logical_flow": "Logical connection between premises and conclusion",
+        "concise_expression": "Concise and direct expression",
+        "evidence_grounded": "Factual premise supported by evidence"
+      },
+      "argument_types": [
+        "factual_ethical",
+        "policy_recommendation",
+        "principle_application"
+      ]
+    },
+    "Q3": {
+      "error_tags": {
+        "mischaracterization": "Mischaracterizes the original argument",
+        "irrelevant_objection": "Objection irrelevant to the argument",
+        "weak_reasoning": "Weak or unsubstantiated reasoning",
+        "strawman": "Straw‑man formulation",
+        "missing_counterexample": "Lacks concrete counterexample"
+      },
+      "quality_tags": {
+        "precise_target": "Precisely targets a weak point",
+        "strong_evidence": "Strong evidence or examples",
+        "logical_coherence": "Logically coherent reasoning",
+        "constructive": "Constructive, offers improvement"
+      },
+      "argument_types": [
+        "counterexample",
+        "principle_challenge",
+        "consequentialist_objection"
+      ]
+    },
+    "Q5": {
+      "error_tags": {
+        "vague_response_type": "Response type not clearly stated",
+        "ignores_objection": "Does not address the objection from Q3",
+        "inconsistent_defense": "Defense inconsistent with P2",
+        "over_qualification": "Over‑qualification empties the claim",
+        "no_justification": "Lacks justification for the chosen response"
+      },
+      "quality_tags": {
+        "clear_choice": "Clear statement of qualify/defend/revise/concede",
+        "addresses_objection": "Directly addresses Q3 objection",
+        "reasoned_justification": "Well‑reasoned justification",
+        "balanced": "Balances original claim and objection",
+        "principled": "Guided by ethical principle"
+      },
+      "argument_types": [
+        "defense",
+        "qualification",
+        "revision",
+        "concession"
+      ]
+    },
+    "Q6": {
+      "error_tags": {
+        "missing_value": "No specific ethical value identified",
+        "vague_cost": "Cost description vague",
+        "no_tradeoff": "No discussion of trade‑off or cost",
+        "irrelevant_example": "Example unrelated to argument",
+        "overstatement": "Exaggerated cost without support"
+      },
+      "quality_tags": {
+        "identified_value": "Ethical value clearly identified",
+        "concrete_cost": "Cost described concretely",
+        "balanced_tradeoff": "Balanced discussion of trade‑offs",
+        "evidence_base": "Cost backed by evidence or explanation",
+        "normative_insight": "Provides normative ethical insight"
+      },
+      "argument_types": [
+        "consequentialist",
+        "deontological",
+        "virtue_ethics",
+        "pluralistic"
+      ]
+    },
+    "Q7": {
+      "error_tags": {
+        "self_absorbed": "Focuses only on personal feelings",
+        "situational_blur": "Fails to distinguish stance from situation",
+        "generic_statement": "Overly generic discussion",
+        "no_reflection": "Lacks self‑reflection",
+        "circular_reasoning": "Circular reasoning"
+      },
+      "quality_tags": {
+        "stance_clarity": "Stance clearly articulated",
+        "context_awareness": "Situational factors considered",
+        "reflective_depth": "Deep reflective insight",
+        "insight_link": "Links stance and situation to judgment",
+        "balanced_view": "Recognizes limits and biases"
+      },
+      "argument_types": [
+        "positionality",
+        "situational_influence",
+        "bias_recognition",
+        "dialogical"
+      ]
+    },
+    "Q8": {
+      "theme_clusters": [
+        "technical_concerns",
+        "normative_questions",
+        "pedagogical_feedback",
+        "emotional_reactions"
+      ]
+    }
+  },
+  "tag_display": {
+    "Q2": {
+      "missing_premise": "缺前提",
+      "unclear_labeling": "標籤不明",
+      "non_sequitur": "不相關",
+      "vague_statement": "過於模糊",
+      "overgeneralization": "過度概括",
+      "clear_premises": "前提清晰",
+      "logical_flow": "邏輯流暢",
+      "concise_expression": "簡潔表達",
+      "evidence_grounded": "有據依據"
+    },
+    "Q3": {
+      "mischaracterization": "誤描述",
+      "irrelevant_objection": "無關反對",
+      "weak_reasoning": "理由薄弱",
+      "strawman": "稻草人",
+      "missing_counterexample": "缺反例",
+      "precise_target": "精準擊中",
+      "strong_evidence": "證據充足",
+      "logical_coherence": "邏輯連貫",
+      "constructive": "建設性"
+    },
+    "Q5": {
+      "vague_response_type": "類型不明",
+      "ignores_objection": "未回應反對",
+      "inconsistent_defense": "防禦不一致",
+      "over_qualification": "過度限定",
+      "no_justification": "缺理由",
+      "clear_choice": "選擇明確",
+      "addresses_objection": "回應反對",
+      "reasoned_justification": "理由充分",
+      "balanced": "平衡考量",
+      "principled": "原則導向"
+    },
+    "Q6": {
+      "missing_value": "缺價值",
+      "vague_cost": "成本模糊",
+      "no_tradeoff": "無權衡",
+      "irrelevant_example": "例不相關",
+      "overstatement": "誇大成本",
+      "identified_value": "價值明確",
+      "concrete_cost": "成本具體",
+      "balanced_tradeoff": "權衡均衡",
+      "evidence_base": "有據依據",
+      "normative_insight": "倫理見解"
+    },
+    "Q7": {
+      "self_absorbed": "自我中心",
+      "situational_blur": "情境模糊",
+      "generic_statement": "過於泛泛",
+      "no_reflection": "缺反思",
+      "circular_reasoning": "循環論證",
+      "stance_clarity": "立場清晰",
+      "context_awareness": "情境意識",
+      "reflective_depth": "反思深度",
+      "insight_link": "洞見連結",
+      "balanced_view": "均衡視角"
+    },
+    "Q8": {
+      "technical_concerns": "技術議題",
+      "normative_questions": "規範討論",
+      "pedagogical_feedback": "教學回饋",
+      "emotional_reactions": "情感反應"
+    }
+  }
+}
